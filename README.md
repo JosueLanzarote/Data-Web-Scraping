@@ -1,17 +1,28 @@
-# Data Web Scraping
-Este proyecto se basa en la técnica del "Data Web Scraping" y tiene como objetivo principal extraer datos de una tabla alojada en wikipedia, llevar a cabo una limpieza de datos y exportar los datos resultantes en formato CSV.
+# 🎤 Análisis de Datos de Eurovisión 2023: Web Scraping y Limpieza
 
-El "Data Web Scraping" es una técnica innovadora que nos permite automatizar la extracción de información valiosa de páginas web. A través de esta técnica, podemos recopilar datos de manera eficiente, evitando la necesidad de realizar tediosas tareas manuales.
+## 📄 Descripción del Proyecto 
+Este proyecto demuestra habilidades en extracción y transformación de datos mediante técnicas de **Web Scraping** para analizar los resultados de Eurovisión 2023. El proceso incluye:
+- Extracción automatizada de datos de tablas en Wikipedia
+- Limpieza y estructuración de datos
+- Exportación a formato CSV listo para análisis
+- Demostración de habilidades técnicas en Python
 
-En nuestro proyecto, nos enfocaremos en extraer datos específicos de una tabla que contiene las puntuaciones finales por paises de Eurovision 2023 alojada en Wikipedia:
+## 🔍 Fuente de la Base de Datos 
+Los datos se extraen de la tabla oficial de resultados alojada en Wikipedia, que contiene las puntuaciones finales por países:
 
-[![Enlace a Wikipedia](https://eurovision-spain.com/wp-content/uploads/fly-images/148238/ESC-2023-1-800x322.png)](https://es.wikipedia.org/wiki/Festival_de_la_Canci%C3%B3n_de_Eurovisi%C3%B3n_2023)
+[![Resultados Eurovisión 2023](https://eurovision-spain.com/wp-content/uploads/fly-images/148238/ESC-2023-1-800x322.png)](https://es.wikipedia.org/wiki/Festival_de_la_Canci%C3%B3n_de_Eurovisi%C3%B3n_2023)
 
-Una vez que hayamos extraído los datos, llevaremos a cabo un proceso de limpieza para asegurarnos de que la información esté estructurada y sea coherente. La limpieza de datos es una etapa crítica en cualquier proyecto de análisis, ya que nos permite eliminar inconsistencias, corregir errores y asegurar que los datos sean confiables y precisos.
+## 👨‍🎓 Habilidades Demostradas 
+- **Web Scraping**: Uso de bibliotecas como BeautifulSoup
+- **Limpieza de datos**: Manejo de columnas de cadena de texto y formato consistente
+- **Manipulación de datos**: Pandas para transformación de tablas
+- **Documentación**: Explicación clara del proceso técnico
 
-Finalmente, exportaremos los datos limpios en formato CSV (valores separados por comas), que es uno de los formatos más utilizados y compatibles para compartir datos. Esto nos permitirá analizar y visualizar los datos extraídos utilizando diversas herramientas y lenguajes de programación.
+## 🧵 Estructura del Proyecto
+1. `scraping`: Script principal de extracción
+2. `Limpieza`: Procesamiento y limpieza de datos  
+3. `Tabla_Resultados_Eurovision_2023.csv`: Dataset final exportado
+4. `README.md`: Documentación del proyecto (este archivo)  
 
-
-
-
-
+## 📌 Resultados Clave  
+Tras aplicar técnicas de web scraping y un riguroso proceso de limpieza de datos, hemos consolidado un dataset estructurado en formato CSV listo para su explotación analítica.
